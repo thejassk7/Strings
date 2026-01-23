@@ -78,24 +78,6 @@ while i<n:
     elif word[i]=='L':
         l=l+1
         i=i+1
-    elif word[i]=='G':
-        g=g+1
-        i=i+1
-    elif word[i]=='H':
-        h=h+1
-        i=i+1
-    elif word[i]=='I':
-        i1=i1+1
-        i=i+1
-    elif word[i]=='J':
-        j=j+1
-        i=i+1
-    elif word[i]=='K':
-        k=k+1
-        i=i+1
-    elif word[i]=='L':
-        l=l+1
-        i=i+1
     elif word[i]=='M':
         m=m+1
         i=i+1
