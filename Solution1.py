@@ -96,4 +96,79 @@ while i<n:
     elif word[i]=='R':
         r=r+1
         i=i+1
-     
+    elif word[i]=='S':
+        s=s+1
+        i=i+1
+    elif word[i]=='T':
+        t=t+1
+        i=i+1
+    elif word[i]=='U':
+        u=u+1
+        i=i+1
+    elif word[i]=='W':
+        w=w+1
+        i=i+1
+    elif word[i]=='X':
+        x=x+1
+        i=i+1
+    elif word[i]=='Y':
+        y=y+1
+        i=i+1
+    elif word[i]=='Z':
+        z=z+1
+        i=i+1
+    else:
+        print("Input Invalid")
+        exit
+    if a>0:
+        print("The character a has come: ",a,"times.")
+    if b>0:
+        print("The character b has come: ",b,"times.")
+    if c>0:
+        print("The character c has come: ",c,"times.")
+    if d>0:
+        print("The character d has come: ",d,"times.")
+    if e>0:
+        print("The character e has come: ",e,"times.")
+    if f>0:
+        print("The charater f has come: ",f,"times.")
+    if g>0:
+        print("The character g has come: ",g,"times.")
+    if h>0:
+        print("The character h has come: ",h,"times.")
+    if i>0:
+        print("The character i has come: ",i,"times.")
+    if j>0:
+        print("The character j has come: ",j,"times.")
+    if k>0:
+        print("The character k has come: ",k,"times.")
+    if l>0:
+        print("The character l has come: ",l,"times.")
+    if m>0:
+        print("The character m has come: ",m,"times.")
+    if n>0:
+        print("The character n has come: ",n,"times.")
+    if o>0:
+        print("The character o has come: ",o,"times.")
+    if p>0:
+        print("The character p has come: ",p,"times.")
+    if q>0:
+        print("The character q has come: ",q,"times.")
+    if r>0:
+        print("The character r has come: ",r,"times.")
+    if s>0:
+        print("The character s has come: ",s,"times.")
+    if t>0:
+        print("The character t has come: ",t,"times.")
+    if u>0:
+        print("The character u has come: ",u,"times.")
+    if v>0:
+        print("The character v has come: ",v,"times.")
+    if w>0:
+        print("The character w has come: ",w,"times.")
+    if x>0:
+        print("The character x has come: ",x,"times.")
+    if y>0:
+        print("The character y has come: ",y,"times.")
+    if z>0:
+        print("The character z has come: ",z,"times.")
