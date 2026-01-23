@@ -280,4 +280,34 @@ while i<n:
         z=z+1
         i=i+1
     print("a",a,"b",b,"c",c,"d",d,"f",f,"g",g,"h",h,"i",i,"j",j,"k",k,"l",l,"m",m,"n",n,"o",o,"p",p,"q",q,"r",r,"s",s,"t",t,"u",u,"v",v,"w",w,"x",x,"y",y,"z",z)
-    
+print("Question 4: Word Reverser: Reverse the order of the words while keeping the characters within the words in the correct order.")
+sentence=input("Enter the sentence that needs to reverse the order of the words while keeping the characters within the words in the correct order.")
+words=sentence.split()
+reversed_words=words[::-1]
+result=''.join(reversed_words)
+print(result)
+print("Question 5: Validating an anagram: Determines if they are anagrams of each other or not")
+word1=input("Enter First word: ")
+word2=input("Enter Second word: ")    
+n1=len(word1)
+n2=len(word2)
+if n1!=n2:
+    print("The given pair of words are not anagram")
+    exit
+i=0,j=0
+while i<n:
+    count=0
+    while j<n:
+        if word1[i].upper()==word[j].upper():
+            count=count+1
+        j=j+1
+    if count==0:
+        print("The given pair of words are not anagram")
+        exit
+    i=i+1
+if count>0:
+    print("The given pair of words are anagram")
+        
+            
+               
+        
